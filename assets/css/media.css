@@ -1,0 +1,64 @@
+@media (max-width: 1199px) {
+    .hero-section p {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-section p {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .myProfileDescription {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-section p {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .hero-section h1 {
+        font-size: 36px;
+    }
+
+    .hero-section {
+        background: url(../image/mobile-hero-section.jpg);
+        height: 70vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+
+    .heroSection {
+        content: "";
+        height: 70vh;
+        background: #292d35c9;
+        position: absolute;
+        display: inline-block;
+    }
+
+    .contacts {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0px !important;
+
+    }
+
+    #logo::before {
+        top: 4px;
+        left: -1px;
+
+    }
+
+    .head-btn {
+        width: 100%;
+    }
+}
