@@ -199,6 +199,10 @@ header {
     background-color: #ffab35;
 }
 
+.navbar-light .navbar-toggler {
+    border: transparent;
+}
+
 /* Hero Section Start */
 
 .hero-section {
