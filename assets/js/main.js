@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
     }
 })
 var typed = new Typed(".auto-type", {
-    strings: ["Web Developer", "UI/UX Designer", "Front-End Developer"],
+    strings: ["Web Developer", "Programmer", "Web Designer"],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true,
