@@ -58,8 +58,8 @@
     }
 
     #logo::before {
-        display: flex;
-        align-items: center;
+        top: 2px;
+left: 0px;
 
     }
 

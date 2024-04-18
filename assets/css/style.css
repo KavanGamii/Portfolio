@@ -135,11 +135,13 @@ a {
     position: relative;
     -webkit-text-stroke: 0.3vw #e4f1ff;
     text-transform: uppercase;
+    color: var(--orange);
 
 }
 
 #logo::before {
     content: attr(data-text);
+    color: var(--orange);
     position: absolute;
     top: 5px;
     left: -1px;
