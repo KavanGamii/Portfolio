@@ -317,6 +317,11 @@ span {
 .project-image img {
     max-width: 100%;
     border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.project-image img:hover {
+    opacity: 0.5;
 }
 
 .projectDesciption {
