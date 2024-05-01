@@ -59,7 +59,7 @@
 
     #logo::before {
         top: 2px;
-left: 0px;
+        left: 0px;
 
     }
 
@@ -69,5 +69,9 @@ left: 0px;
 
     .head-btn {
         width: 100%;
+    }
+
+    .cursor {
+        display: none;
     }
 }
