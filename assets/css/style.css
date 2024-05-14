@@ -432,7 +432,8 @@ h1 {
     color: orange;
     white-space: nowrap;
     padding: 10px 60px;
-    letter-spacing: 6px;
+    font-family: 'Sora';
+    letter-spacing: 4px;
     font-weight: 900;
     animation: move-rtl 5000ms linear infinite;
 
