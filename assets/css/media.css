@@ -19,6 +19,14 @@
 
         padding-bottom: 22px;
     }
+
+    .contact-details {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0px !important;
+
+    }
 }
 
 @media (max-width: 575px) {
@@ -73,5 +81,10 @@
 
     .cursor {
         display: none;
+    }
+
+    .textwrap h1 {
+        font-size: 30px;
+        padding-top: 26px;
     }
 }
