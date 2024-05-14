@@ -426,7 +426,7 @@ a {
     overflow: hidden;
 }
 
-h1 {
+.textwrap h1 {
     font-size: 48px;
     text-transform: uppercase;
     color: orange;
@@ -435,7 +435,7 @@ h1 {
     font-family: 'Sora';
     letter-spacing: 4px;
     font-weight: 900;
-    animation: move-rtl 5000ms linear infinite;
+    animation: move-rtl 10000ms linear infinite;
 
 }
 
@@ -449,6 +449,38 @@ h1 {
 
     }
 }
+
+/* just form learning  */
+/* .textwrap1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.textwrap1 h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: orange;
+    white-space: nowrap;
+    padding: 10px 60px;
+    font-family: 'Sora';
+    letter-spacing: 4px;
+    font-weight: 900;
+    animation: move-lft 10000ms linear infinite;
+
+}
+
+@keyframes move-lft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+
+    }
+} */
 
 /* footer Section Start */
 footer {
