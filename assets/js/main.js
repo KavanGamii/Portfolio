@@ -16,7 +16,7 @@ var typed = new Typed(".auto-type", {
 AOS.init({
     offset: 50,
     duration: 1000,
-    once: true
+    once: false
 });
 const cursor = document.querySelector('.cursor');
 

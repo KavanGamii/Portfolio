@@ -387,7 +387,7 @@ a {
 }
 
 /* contact details */
-.contacts {
+.contact-details {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -409,11 +409,44 @@ a {
     border-radius: 5px;
     padding: 8px;
     width: 100%;
-    transition: 0.5s;
+    transition: 0.7s;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .submitbtn:hover {
     background-color: var(--black);
+    letter-spacing: 6px;
+}
+
+.textwrap {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: orange;
+    white-space: nowrap;
+    padding: 10px 60px;
+    letter-spacing: 6px;
+    font-weight: 900;
+    animation: move-rtl 5000ms linear infinite;
+
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+
+    }
 }
 
 /* footer Section Start */
@@ -502,12 +535,15 @@ footer {
     border: transparent;
     background-color: var(--orange);
     color: var(--white);
-    transition: 0.5s;
+    transition: 0.7s;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .newsletterBtn:hover {
     background-color: var(--white);
     color: var(--orange);
+    letter-spacing: 4px;
 }
 
 ::placeholder {
@@ -594,4 +630,8 @@ footer {
 .expand {
     animation: cursorAnim3 .5s forwards;
     border: 1px solid var(--orange);
+}
+
+#common {
+    transition: 0.7s;
 }
