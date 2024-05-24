@@ -213,6 +213,7 @@ a {
 
 .hero-section {
     background-image: url('../image/hero-section.jpg');
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     background-position: center;
