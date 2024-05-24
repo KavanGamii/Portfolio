@@ -42,6 +42,7 @@
     .hero-section {
         background: url(../image/mobile-hero-section.jpg);
         height: 70vh;
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
