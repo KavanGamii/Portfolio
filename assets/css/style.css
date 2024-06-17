@@ -437,7 +437,7 @@ a {
     letter-spacing: 4px;
     font-weight: 900;
     animation: move-rtl 10000ms linear infinite;
-
+    filter: drop-shadow(1px 4px 2px orange);
 }
 
 @keyframes move-rtl {
